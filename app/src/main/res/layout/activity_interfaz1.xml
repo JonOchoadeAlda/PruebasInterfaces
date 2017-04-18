@@ -22,21 +22,27 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:background="@drawable/borde_imagen2"
         android:backgroundTint="@android:color/background_light"
+        android:elevation="0dp"
         android:paddingLeft="100px"
         android:paddingRight="100px"
         android:text="Usuario"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:background="@drawable/borde_imagen2"
         android:backgroundTint="@android:color/background_light"
         android:paddingLeft="100px"
         android:paddingRight="100px"
         android:text="INVITADO"
         android:textColor="@color/colorPrimary"
-        android:layout_marginBottom="100px"/>
+        android:textSize="18sp" />
 <RelativeLayout
     android:layout_width="201dp"
     android:layout_height="233dp"
