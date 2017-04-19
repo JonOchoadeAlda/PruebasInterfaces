@@ -2,34 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center|top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo2"
+    android:gravity="bottom|center"
     android:orientation="vertical"
     android:weightSum="1"
-    tools:context="com.example.jocaldal.pruebasinterfaces.Interfaz1"
-    android:background="@color/colorPrimary">
+    tools:context="com.example.jocaldal.pruebasinterfaces.Interfaz1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="EKIDEVOTION"
-        android:textColor="@android:color/background_light"
-        android:textSize="100px"
-        android:layout_marginBottom="80px"/>
 
     <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30px"
         android:background="@drawable/borde_imagen2"
-        android:backgroundTint="@android:color/background_light"
-        android:elevation="0dp"
+        android:backgroundTint="@color/colorPrimary"
         android:paddingLeft="100px"
         android:paddingRight="100px"
         android:text="Usuario"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp" />
 
     <Button
@@ -37,27 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="100px"
         android:background="@drawable/borde_imagen2"
-        android:backgroundTint="@android:color/background_light"
+        android:backgroundTint="@color/colorPrimary"
         android:paddingLeft="100px"
         android:paddingRight="100px"
         android:text="INVITADO"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp" />
-<RelativeLayout
-    android:layout_width="201dp"
-    android:layout_height="233dp"
-    android:background="@drawable/borde_imagen"
-    >
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="296dp"
-        android:layout_height="184dp"
-        android:background="@drawable/borde_imagen"
-        app:srcCompat="@mipmap/macota_sin_bordes"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true" />
-
-</RelativeLayout>
 </LinearLayout>
